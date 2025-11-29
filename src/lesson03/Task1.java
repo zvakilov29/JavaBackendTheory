@@ -11,10 +11,12 @@ public class Task1 {
         double deliveryFee = 0;
         boolean isServiceAvailable = true;
 
+        System.out.println("-----");
         System.out.print("Enter City:\n" +
                 "1 ---> Baku,\n" +
                 "2 ---> Sumgayit,\n" +
-                "3 ---> Xirdalan: ");
+                "3 ---> Xirdalan:\n" +
+                "Enter here: ");
         int locationCityChoice = input.nextInt();
         String locationCity;
 
